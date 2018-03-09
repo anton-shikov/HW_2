@@ -28,7 +28,7 @@ class Kmer:
             print (locus[0], '\t', locus[1], '\t', locus[2])
 
 
-kmer_size = 100
+kmer_size = 23
 kmer_dict = {}
 
 for record in SeqIO.parse('/home/anton/seq_y_pestis.fasta', 'fasta'):
